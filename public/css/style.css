@@ -1,0 +1,312 @@
+.container {
+	width: 85%
+}
+li.list-group-item:hover, li.list-group-item:focus {
+	background-color: #f5f5f5;
+	text-decoration: none
+}
+.eliminar {
+	border: none;
+	background: none;
+	color: #d43f3a
+}
+.agregarattr {
+	border: none;
+	background: none;
+	color: #1D9D73
+}
+.eliminar:hover {
+	color: #C9302C
+}
+.list-group .btn {
+	padding: 0 12px
+}
+.btn.focus, .btn:focus, .btn:hover {
+	color: #337ab7
+}
+.list-group span {
+	color: #666
+}
+.mtop {
+	margin-top: 10px
+}
+.mleft {
+	margin-left: 10px
+}
+.mright {
+	margin-right: 10px
+}
+.mbottom {
+	margin-bottom: 10px
+}
+.subray {
+	text-decoration: underline
+}
+.iconproject {
+	color: #666
+}
+#nombreproyecto {
+	border-left: medium none;
+	border-right: medium none;
+	border-top: medium none
+}
+#nombreproyecto::-moz-placeholder {
+	color: #999999;
+	font-style: italic;
+	letter-spacing: 3px
+}
+#nombreproyecto::-webkit-input-placeholder {
+	color: #999999;
+	font-style: italic;
+	letter-spacing: 3px
+}
+#subject, #gtransactional {
+	width: 100%
+}
+#agregarclns {
+	background: #337ab7 none repeat scroll 0 0;
+	border-radius: 0;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px
+}
+.clns {
+	height: auto;
+	margin: 51px 0 0 -15px;
+	position: fixed;
+	z-index: 3
+}
+.formmodal {
+	display: inherit
+}
+.formmodal input[type="text"] {
+	text-transform: uppercase
+}
+.modal-body {
+	display: flex
+}
+.icon-plus {
+	cursor: pointer
+}
+.clnsdraw ul {
+	list-style: none
+}
+.clnsdraw .intro {
+	margin: 10px 0px 0 104px !important
+}
+.linea {
+	background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat-y scroll -53px 0
+}
+.clnsdraw .intro li {
+	margin-bottom: 5px;
+	padding-left: 16px
+}
+.clnsdraw .out > li {
+	margin: 0 0 10px !important
+}
+.clnsdraw li .icon_chain {
+	background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 4px -2px;
+	display: block;
+	height: 60px;
+	margin: -33px 0 0 -20px;
+	position: absolute;
+	width: 38px
+}
+.clnsdraw li .icon_chain2 {
+	background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 4px -83px;
+	display: block;
+	height: 45px;
+	margin: 6px 0 0 117px;
+	position: absolute;
+	width: 38px
+}
+.clnsdraw {
+	background: rgba(0, 0, 0, 0) url("../images/tiny_grid.png") repeat scroll 0 0;
+	margin: 90px 0 50px !important;
+	padding: 30px 10px 10px 245px
+}
+.clnsdraw li h1 {
+	color: rgb(0, 0, 0);
+	font-family: "ASAPREGULAR";
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	text-decoration: none
+}
+.clnsdraw li {
+	list-style: outside none none
+}
+.clnsdraw li span {
+	margin-left: 104px;
+	margin-top: 2px;
+	position: absolute;
+	border-radius: 1px
+}
+.clnsdraw li a {
+	border-radius: 5px;
+	display: block;
+	height: 40px;
+	list-style: outside none none;
+	padding: 15px 2px 10px;
+	width: 120px;
+	background: #31D0C6;
+	border-bottom: 2px solid #000
+}
+.icon-dfne {
+	background: rgba(255, 255, 255, 0.80) none repeat scroll 0 0;
+	color: rgb(217, 83, 79);
+	display: table;
+	margin: -13px 0 0 -10px !important;
+	padding: 0 !important;
+	width: auto;
+	cursor: pointer;
+	font-size: 12px
+}
+.icon-dfe {
+	background: rgba(255, 255, 255, 0.80) none repeat scroll 0 0;
+	color: #000; 
+	display: table;
+	margin: -13px 0 0 -10px !important;
+	padding: 0 !important;
+	width: auto;
+	cursor: none;
+	font-size: 12px
+}
+.icon-dfne:hover {
+	box-shadow: 0 0 1px #000000
+}
+.clnsdraw .intro li:last-child {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important
+}
+.nproject {
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+	margin-left: 0;
+	padding: 65px 40px 10px 300px !important;
+	position: fixed;
+	width: 99%;
+	z-index: 1
+}
+.fixed {
+	position: fixed;
+	z-index: 4;
+	width: 99%
+}
+.alert {
+	margin: 50px 0 0 515px;
+	position: absolute;
+	z-index: 1
+}
+.ifijo_wrapper {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0px 0px 9px -3px #000
+}
+.ifijo_wrapper div li {
+	text-align: center;
+	list-style: none
+}
+.ifijo_wrapper div li:nth-child(1) {
+	border-left: 1px solid #e2e2e2
+}
+.ifijo_wrapper div li:nth-child(4) {
+	border-right: 1px solid #e2e2e2
+}
+.icon-flecha::before {
+	color: #337ab7;
+	content: "";
+	float: left;
+	font-size: 20px;
+	 margin-left: -30px;
+    margin-top: 20px;
+}
+.ifijo_wrapper div li a {
+	color: rgb(102, 102, 102);
+	display: block;
+	font-weight: bold;
+	padding: 15px;
+	font-family: "ASAPITALIC";
+	text-decoration: none;
+	transition: box-shadow 0.15s ease 0s
+}
+.ifijo_wrapper div li a:hover {
+	box-shadow: 0 3px rgba(255, 255, 255, 0.94) inset, 0 6px #FE854F inset
+}
+.ifijo_wrapper div li a span {
+	font-size: 20px;
+	margin: 10px
+}
+.icon-settings {
+	cursor: pointer;
+	opacity: 0.5
+}
+.icon-settings:hover {
+	opacity: 1
+}
+.icon-pencil2{
+	color: #62488a;
+}
+.frm_attr_table {
+	width: 100%
+}
+.frm_attr_table #ntable {
+	border: medium none;
+	box-shadow: 0 0 1px rgb(0, 0, 0);
+	height: 20px;
+	margin-left: 5px;
+	margin: 1px 6px 0 5px
+}
+.frm_attr_table #create_table {
+	height: 22px;
+	padding: 0 
+}
+#modalAttr .modal-dialog {
+	width: 80%
+}
+#modalAttr .modal-body {
+	display: inline-block;
+	width: 100%
+}
+#modalAuxTab .modal-dialog {
+	top: 20%;
+	width:90%
+}
+#modalAuxTab .modal-body {
+	display: inline-block;
+	width: 100%
+}
+
+.fila-base {
+	display: none
+}
+#tabla thead tr th, #tabla tbody {
+	text-align: center
+}
+#tabla th, #tabla td {
+	padding: 0;
+	vertical-align: middle
+}
+#tabla input, #tabla select, #tabla textarea{
+ border: 1px solid #f2f2f2;	
+} 
+.modal-body #agregar, #tabla .eliminar, #tabla .agregarattr, #tabla .editarattr, .modal-body #agregar_aux {
+	font-size: 20px;
+	cursor: pointer
+}
+.campos tr td input[type='text'], .campos_aux tr td input[type='text'] {
+	height: 20px
+}
+.campos tr td select, .campos_aux tr td select {
+	height: 20px
+}
+
+/*estilos dependencias funcionales*/
+#depfunc{
+	margin: 100px 0 0 0;
+}
+.oculto{
+	visibility: hidden;
+}
